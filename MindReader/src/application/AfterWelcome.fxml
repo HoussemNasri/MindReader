@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #37245b;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AfterWelcomeController">
+   <children>
+      <VBox alignment="CENTER" layoutX="119.0" layoutY="199.0" prefHeight="148.0" prefWidth="462.0" spacing="5.0" AnchorPane.leftAnchor="119.0" AnchorPane.rightAnchor="119.0">
+         <children>
+            <Button fx:id="start" mnemonicParsing="false" onMouseClicked="#Play" prefHeight="46.0" prefWidth="123.0" stylesheets="@application.css" text="START" />
+            <Button fx:id="Exit" mnemonicParsing="false" onMouseClicked="#Exit" prefHeight="46.0" prefWidth="123.0" stylesheets="@application.css" text="EXIT" />
+         </children>
+      </VBox>
+      <VBox alignment="TOP_CENTER" layoutX="129.64096069335938" layoutY="33.73999786376953" AnchorPane.leftAnchor="129.64096069335938" AnchorPane.rightAnchor="128.35903930664062" AnchorPane.topAnchor="33.73999786376953">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="THINK OF A NUMBER BETWEEN" textAlignment="CENTER">
+               <font>
+                  <Font name="Raleway Heavy" size="29.0" />
+               </font>
+            </Text>
+            <HBox alignment="CENTER" spacing="10.0">
+               <children>
+                  <Text fill="#8c3ead" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                     <font>
+                        <Font name="Roboto Bold" size="32.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="AND" textAlignment="CENTER">
+                     <font>
+                        <Font name="Raleway Heavy" size="29.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="ValueChoosen" fill="#8c3ead" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                     <font>
+                        <Font name="Roboto Bold" size="32.0" />
+                     </font>
+                  </Text>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <ImageView fitHeight="84.0" fitWidth="205.0" layoutX="14.0" layoutY="402.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0">
+         <image>
+            <Image url="@../images/Asset%203.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="500.0" fitWidth="700.0" mouseTransparent="true" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1x/backgroundpattren.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #37245b;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ResultController">
+   <children>
+      <Text fx:id="TheResult" fill="#8c3ead" layoutX="250.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-scale-x: 0.9; -fx-scale-y: 1.3;" text="0" textAlignment="CENTER" wrappingWidth="200.0">
+         <font>
+            <Font name="Arroyo" size="110.0" />
+         </font>
+      </Text>
+      <Label layoutX="259.0" layoutY="282.0" prefHeight="22.0" prefWidth="182.0" style="-fx-background-color: #8f3faf; -fx-alignment: center;" text="THIS IS YOUR NUMBER" textFill="#362459">
+         <font>
+            <Font name="Roboto Bold Condensed" size="13.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="259.0" layoutY="310.0" onMouseClicked="#Restart" prefHeight="50.0" prefWidth="50.0" stylesheets="@application.css">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Restart.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="325.0" layoutY="310.0" onMouseClicked="#Exit" prefHeight="50.0" prefWidth="50.0" stylesheets="@application.css">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Exit.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="391.0" layoutY="310.0" onMouseClicked="#Information" prefHeight="50.0" prefWidth="50.0" stylesheets="@application.css">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Information.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <ImageView fx:id="backpattren" fitHeight="576.0" fitWidth="700.0" mouseTransparent="true" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1x/backgroundpattren.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

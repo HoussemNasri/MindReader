@@ -1,0 +1,134 @@
+Button{
+	-fx-border-insets: 0;
+	-fx-background-insets: 0;
+	-fx-border-radius: 0;
+	-fx-background-radius: 0;
+	-fx-background-color: #8f3faf;
+	-fx-font-family: Roboto;
+	-fx-font-style: normal ;
+	-fx-text-fill: #3f2865;
+	-fx-font-weight: Bold;
+	-fx-font-size: 22;
+	
+}
+
+.button .text{
+	-fx-font-smoothing-type: GRAY;
+}
+
+Button:hover{
+	-fx-opacity: 0.90;
+}
+
+Button:pressed{
+	-fx-opacity: 0.85;
+}
+
+.radio-button .text{
+	-fx-fill: #37245b;
+	-fx-alignment: center ;
+	-fx-font-family: Roboto;
+	-fx-font-weight: Bold;
+	-fx-font-size:16 pt;
+	-fx-font-smoothing-type: GRAY;
+	-fx-translate-x: 28;
+	
+
+}
+Label:hover{
+	-fx-background-color:#2c1e4c;
+}
+	
+Label:pressed{
+	-fx-background-color:#241a42;
+}
+
+.radio-button .radio{
+	-fx-border-color: #37245b;
+	-fx-background-radius: 100;
+	-fx-border-radius: 100;
+	-fx-border-width: 4;
+	-fx-translate-x: 1;
+	-fx-background-color: #8f3faf;
+}
+
+.radio-button:selected .dot{
+	-fx-background-color: #37245b;
+	-fx-background-insets: 0;
+}
+
+.radio-button {
+	-fx-background-color:#8f3faf;
+	-fx-pref-width: 127;
+	-fx-pref-height: 27;
+	-fx-background-insets: 0;
+	-fx-background-radius: 50 0 0 50;
+}
+
+.radio-button:hover{
+	-fx-opacity: 0.9;
+}
+
+
+.radio-button:pressed{
+	-fx-opacity: 0.8;
+}
+.scroll-pane > .viewport{
+	-fx-background-color: transparent ;
+}
+
+.scroll-pane
+{
+    -fx-background-color: transparent;
+    -fx-padding: 0px;
+     
+}
+
+.scroll-pane .scroll-bar:vertical
+{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+
+}
+
+.scroll-pane .scroll-bar:vertical .track
+{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+
+}
+
+
+.scroll-pane .scroll-bar:vertical .decrement-button
+{
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-pane .scroll-bar .increment-arrow,
+.scroll-pane .scroll-bar .decrement-arrow
+{
+  -fx-background-color:transparent ;
+}
+
+.scroll-pane .scroll-bar:vertical .thumb
+{
+    -fx-background-color: #2c1e4c;
+    -fx-background-radius: 0;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
